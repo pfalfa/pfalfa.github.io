@@ -1,0 +1,91 @@
+@import "variable";
+@import "accordion";
+@import "btn";
+@import "card";
+@import "input";
+@import "nav";
+@import "timeline";
+@import "typography";
+@import "utils";
+@import "menu-button";
+
+@import "mobile";
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #e6f4f1;
+}
+
+section {
+  position: relative;
+  display: flex;
+  padding: 120px 62px;
+  margin-bottom: 42px;
+  flex-wrap: wrap;
+}
+
+.chart-wrapper {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+footer {
+  display: flex;
+  padding: ($basePadding * 4) 62px;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to bottom, #6DE7AD, #30CFCE);
+}
+
+#bg1 {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  text-align: right;
+
+  img {
+    width: 100%;
+  }
+}
+
+#bg2 {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+#home {
+  padding-top: 0px;
+}

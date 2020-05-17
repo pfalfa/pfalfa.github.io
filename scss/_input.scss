@@ -1,0 +1,10 @@
+input[type=text], input[type=email], textarea {
+  box-sizing: border-box;
+  display: block;
+  padding: 14px;
+  width: 100%;
+  background: #F7FAF9;
+  border-radius: 5px;
+  border: solid 1px #6DE7AD;
+  margin-bottom: $baseMargin;
+}

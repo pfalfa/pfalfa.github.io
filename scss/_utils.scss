@@ -1,0 +1,196 @@
+.with-bg {
+  background-color: #6DE7AD;
+}
+
+.hide-on-mobile {
+  display: initial;
+}
+
+.show-on-mobile {
+  display: none;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.rise-on-hover {
+  transition: .4s;
+
+  &:hover {
+    background-color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0px 12px 12px 0px rgba(0,0,0,0.16);
+    z-index: +1;
+  }
+}
+
+.width-25, .width-50 {
+  display: flex;
+
+  &.vh-100 {
+    min-height: 100vh;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.v-center {
+    align-items: center;
+  }
+}
+
+.width-25 {
+  width: 25%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+
+  &.spread {
+    justify-content: space-between;
+  }
+
+  &.v-center {
+    align-content: center;
+  }
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.padding-1 {
+  box-sizing: border-box;
+  padding: $basePadding;
+}
+
+.padding-2 {
+  box-sizing: border-box;
+  padding: $basePadding * 2;
+}
+
+.padding-4 {
+  box-sizing: border-box;
+  padding: $basePadding * 4;
+}
+
+.m-right-1 {
+  margin-right: $baseMargin;
+}
+
+.m-right-2 {
+  margin-right: $baseMargin * 2;
+}
+
+.m-bottom-1 {
+  margin-bottom: $baseMargin;
+}
+
+.m-bottom-2 {
+  margin-bottom: $baseMargin * 2;
+}
+
+.m-bottom-4 {
+  margin-bottom: $baseMargin * 4;
+}
+
+.m-top-1 {
+  margin-top: $baseMargin;
+}
+
+.m-top-2 {
+  margin-top: $baseMargin * 2;
+}
+
+.m-top-4 {
+  margin-top: $baseMargin * 4;
+}
+
+
+.primary {
+  color: $colorPrimary;
+}
+
+.secondary {
+  color: $colorSecondary;
+}
+
+.white {
+  color: #fff;
+  opacity: 1;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.point {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  margin-right: $baseMargin;
+  border-radius: 50%;
+
+  &.blue {
+    background-color: #00C3FF;
+  }
+
+  &.green {
+    background-color: #6DE7AD;
+  }
+
+  &.pink {
+    background-color: #DE80CB;
+  }
+  
+  &.orange {
+    background-color: #EFCE4A;
+  }
+}
+
+.check-icon {
+  width: 24px; 
+  margin-top: 6px;
+}

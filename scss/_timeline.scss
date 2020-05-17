@@ -1,0 +1,44 @@
+.timeline {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: $baseMargin * 4;
+
+  .event-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .pin {
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background-color: $colorPrimary;
+      z-index: +1;
+      border: solid 2px #fff;
+      top: 10px;
+    }
+
+    .event-time {
+      position: relative;
+      text-align: right;
+      width: 100%;
+      font-size: 22px;
+      line-height: 40px;
+      color: $colorSecondary;
+      font-weight: bold;
+      border-right: solid 3px $colorPrimary;
+      padding: 0px $basePadding * 2 $basePadding * 2 $basePadding * 2;
+    }
+
+    .event-description {
+      text-align: left;
+      font-size: 22px;
+      line-height: 40px;
+      width: 100%;
+      color: $colorSecondary;
+      padding: 0px $basePadding * 2 $basePadding * 2 $basePadding * 2;
+    }
+  }
+}

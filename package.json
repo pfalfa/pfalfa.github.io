@@ -1,0 +1,14 @@
+{
+  "name": "pfalfa-landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "sass": "^1.21.0"
+  },
+  "scripts": {
+    "sass-build": "sass scss/index.scss css/main.css --style=compressed",
+    "sass-watch": "sass --watch scss/index.scss css/main.css --style=compressed"
+  }
+}
